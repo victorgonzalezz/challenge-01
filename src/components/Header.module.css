@@ -1,0 +1,19 @@
+.header {
+  background: var(--gray-700);
+  position: relative;
+  height: 200px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  display: flex;
+  justify-content: center;
+  padding: 72px 0 80px 0;
+}
+
+.header img {
+
+  width: 126px;
+  height: 48px;
+  
+}

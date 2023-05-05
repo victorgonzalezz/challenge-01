@@ -1,0 +1,30 @@
+:root {
+  --white: #ffffff;
+  --gray-100: #F2F2F2;
+  --gray-300: #808080;
+  --gray-400: #1A1A1A;
+  --gray-500: #262626;
+  --gray-700: #0D0D0D;
+  --blue-dark: #1E6F9F;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-400);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: 'Inter', sans-serif;
+}

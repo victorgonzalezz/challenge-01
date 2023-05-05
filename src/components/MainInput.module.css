@@ -1,0 +1,46 @@
+.mainInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -3.6rem;
+  z-index: 1;
+  position: relative;
+}
+
+.input {
+  background: var(--gray-500);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+  color: var(--gray-300);
+  width: 638px;
+  height: 54px;
+  border: 0;
+  border-radius: 0.5rem;
+
+}
+
+.input[type=text] {
+  padding: 16px;
+}
+
+.button {
+  width: 100%;
+  color: var(--gray-100);
+  background: var(--blue-dark);
+  width: 90px;
+  height: 52px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 140%;
+  border: 0;
+  border-radius: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+}
